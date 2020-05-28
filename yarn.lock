@@ -1262,11 +1262,12 @@
   dependencies:
     "@elastic/apm-rum-core" "^5.2.0"
 
-"@elastic/charts@19.2.0":
-  version "19.2.0"
-  resolved "https://registry.yarnpkg.com/@elastic/charts/-/charts-19.2.0.tgz#45db8c80e4699e5088a1771f190171c1144c5242"
-  integrity sha512-uhk73OQPaxg7l54gfr+kv+c6jiEngewwH408OySzJbnH23z/5sIpLSziZhV33I6bs/LKDXQSqamC9Jh6Xcwk1A==
+"@elastic/charts@19.4.0":
+  version "19.4.0"
+  resolved "https://registry.yarnpkg.com/@elastic/charts/-/charts-19.4.0.tgz#3ccfd75e02fdd528549850fa663c2903248b2c2b"
+  integrity sha512-wKPKW9Vx9YTf7+sB06rAIrlycnWB1qgsH9HLvSragJ+QjOoKV2Z2JrS8TDgNxXmq00Jyw2NJY9E8IdxwDug/SA==
   dependencies:
+    "@popperjs/core" "^2.4.0"
     classnames "^2.2.6"
     d3-array "^1.2.4"
     d3-collection "^1.0.7"
@@ -2502,6 +2503,11 @@
     retry-axios "^1.0.1"
     which "^2.0.1"
     winston "^3.0.0"
+
+"@popperjs/core@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.4.0.tgz#0e1bdf8d021e7ea58affade33d9d607e11365915"
+  integrity sha512-NMrDy6EWh9TPdSRiHmHH2ye1v5U0gBD7pRYwSwJvomx7Bm4GG04vu63dYiVzebLOx2obPpJugew06xVP0Nk7hA==
 
 "@reach/router@^1.2.1":
   version "1.2.1"
